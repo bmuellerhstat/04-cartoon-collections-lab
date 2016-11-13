@@ -5,10 +5,10 @@ def roll_call_dwarves(dwarves)# code a parameter here
 end
 end
 
-def summon_captain_planet(veggies)# code a parameter here
+def summon_captain_planet(calls)# code a parameter here
   # Your code here
-  veggies.collect do |name|
-  "#{name.capitalize}!"
+  calls.collect do |element|
+  "#{element.capitalize}!"
 end
 end
 
@@ -19,10 +19,10 @@ def long_planeteer_calls(calls)# code a parameter here
 end
 end
 
-def find_the_cheese(list)# code a parameter here
+def find_the_cheese(cheeze)# code a parameter here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find do |cheese|
-  list.include?(cheese)
+  cheeze.find do |cheese|
+  cheese_types.include?(cheese)
 end 
 end
