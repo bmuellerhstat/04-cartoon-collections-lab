@@ -29,6 +29,7 @@ def roll_call_dwarves(dwarves)# code a parameter here
   
  def find_the_cheese(arr)# code a parameter here
     # the array below is here to help
+    
     cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_types.each do |cheese|
       if arr.include?(cheese)
