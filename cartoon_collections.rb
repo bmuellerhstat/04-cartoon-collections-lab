@@ -1,7 +1,5 @@
 dwarf_names = ["Doc", "Dopey", "Bashful", "Grumpy"] 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]  
-short_words = ["puff", "go", "two"] 
-assorted_words = ["two", "go", "industrious", "bop"]
 
 def roll_call_dwarves(dwarf_names) # code a parameter here
   # Your code here 
@@ -18,25 +16,16 @@ def summon_captain_planet(planeteer_calls) # code a parameter here
   }
 end
 
-def long_planeteer_calls(short_words, assorted_words) # code a parameter here --> just 1 parameter?
+def long_planeteer_calls(planeteer_calls) # code a parameter here 
   # Your code here 
-  #Should there be two separate loops? 
-  short_words.each { |word| 
-    if short_words.length > 4 
-      true 
+  planeteer_calls.each { |call| 
+    if call.length > 4 
+      return true 
     else 
-      false
+      return false
     end
   }
-  
-   assorted_words.each { |word| 
-    if short_words.length > 4 
-      true 
-    else 
-      false
-    end
-  }
-end
+end 
 
 def find_the_cheese# code a parameter here
   # the array below is here to help
