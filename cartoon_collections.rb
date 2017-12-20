@@ -37,6 +37,7 @@ end
 #METHOD 4
 def find_the_cheese(cheese_target)# code a parameter here
   # the array below is here to help
+<<<<<<< HEAD
   cheese_types = ["cheddar", "gouda", "camembert"] 
   new_cheese_array = []
   
@@ -45,5 +46,17 @@ def find_the_cheese(cheese_target)# code a parameter here
       new_cheese_array.push(snack)
     end
   }
+=======
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  new_cheese_array=[]
+  
+  cheese_target.each { |snack|
+  if cheese_types.include?(snack)
+    new_cheese_array.push(snack)
+  end 
+  } 
+>>>>>>> a253a3af3c6dfad6511ed54d433950f1a778ab55
     new_cheese_array[0]
 end
+
+
