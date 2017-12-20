@@ -14,9 +14,12 @@ end
 #METHOD 2
 def summon_captain_planet(planeteer_calls) # code a parameter here
   # Your code here
+  final_result = []
+  
   planeteer_calls.collect { |call| 
-    puts call.capitalize + "!"
+    final_result << call.capitalize + "!"
   }
+  final_result
 end
 
 #METHOD 3
