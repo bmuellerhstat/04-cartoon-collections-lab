@@ -19,9 +19,9 @@ def long_planeteer_calls(rand_calls)
       return true
     else
       return false
-  end 
+    end 
+  end
 end
-
 # the array below is here to help
 cheese_types = ["cheddar", "gouda", "camembert"]
 snacks = ["crackers", "gouda", "thyme"]
@@ -34,4 +34,5 @@ def find_the_cheese(arr)
     cheese_types.include?(cheese_type)
   end
 end
-end
+find_the_cheese(soup)
+find_the_cheese(ingredients)
