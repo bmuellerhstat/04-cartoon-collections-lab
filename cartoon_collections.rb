@@ -30,6 +30,7 @@ def find_the_cheese(array)# code a parameter here
   cheese_types.each do |cheese|
     if array.include?(cheese)
       return cheese
+      break
     else 
      return nil
     end 
